@@ -18,14 +18,9 @@ This project uses **React Context API** to manage authentication and conversatio
    ```
 3. Open the app in the browser at `http://localhost:5173`.
 
----
-
-
-### **Project Folder Structure**
-
-bash
-Copy
-Edit
+## **📌 Component Structure Overview**
+### **🛠 Project Folder Structure**
+```
 /src
   ├── /components
   │   ├── Sidebar.jsx
@@ -44,7 +39,7 @@ Edit
   │
   ├── App.jsx
   ├── main.jsx
-
+```
 ### **Component Structure Overview**
 #### **1. `AuthContext.js`**
 - Stores user authentication state.
