@@ -1,6 +1,6 @@
 export const users = [
     { id: "user1", password: "johndoe123", username: "John Doe", designation: "Sales", photo: "https://t3.ftcdn.net/jpg/00/64/44/46/360_F_64444686_VW2695QVgibfTu0Hhxlg879nFQJq3ODO.jpg" },
-    { id: "amitsharma", password: "amitsharma123", username: "Amit Sharma", designation: "Marketing", photo: "https://randomuser.me/api/portraits/men/45.jpg" },
+    { id: "nishantvidhuri", password: "nishant123", username: "Amit Sharma", designation: "Marketing", photo: "https://randomuser.me/api/portraits/men/45.jpg" },
     { id: "priyagupta", password: "priyagupta123", username: "Priya Gupta", designation: "HR", photo: "https://randomuser.me/api/portraits/women/68.jpg" },
     { id: "rahulkumar", password: "rahulkumar123", username: "Rahul Kumar", designation: "Finance", photo: "https://randomuser.me/api/portraits/men/33.jpg" },
     { id: "snehasingh", password: "snehasingh123", username: "Sneha Singh", designation: "Software Engineer", photo: "https://randomuser.me/api/portraits/women/21.jpg" },
