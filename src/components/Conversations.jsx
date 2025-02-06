@@ -302,9 +302,10 @@ const Conversations = () => {
   const [selectedFilter, setSelectedFilter] = useState("");
 
   const filteredConversations = conversationsData.filter((conv) => {
-    const matchesSearch = conv.id
-      .toLowerCase()
-      .includes(searchQuery.toLowerCase());
+    const matchesSearch =
+    conv.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    conv.owner.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    conv.talkRatio.toString().includes(searchQuery);
     const matchesFilter = selectedFilter
       ? selectedFilter === "low"
         ? conv.talkRatio < 50
